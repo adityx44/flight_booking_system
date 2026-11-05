@@ -1,0 +1,5 @@
+flight_id,source,destination,date,price,seats
+101,Pune,Mumbai,2026-12-01,3500,20
+102,Pune,Delhi,2026-12-02,6500,15
+103,Mumbai,Bangalore,2026-12-03,5500,25
+104,Delhi,Chennai,2026-12-05,7000,10
