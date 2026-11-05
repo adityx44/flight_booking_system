@@ -4,8 +4,8 @@ from auth.login import login
 from flights.flight import show_flights
 from flights.search import search_flights
 
+from booking.booking import book_flight
 
-from analytics.analytics import total_bookings
 
 while True:
 
@@ -50,12 +50,8 @@ while True:
                     book_flight(user_id)
 
                 elif option == "4":
-
-                    total_bookings()
-
-                elif option == "5":
-
                     break
+                    
 
     elif choice == "3":
 
